@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* header section */
+
+.navbar-content {
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: table;
+    margin: 5px;
+}
+
+.navbar ul li {
+    display: table-cell;
+    padding: 15px;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.header {
+    position: relative;
+    height: 100%;
+}
+
+.header-content {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+}
+
+.profil {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -7px 5px rgba(0, 0, 0, 0.247);
+}
+
+.profil-text {
+    padding: 40px 0px 40px 40px;
+}
+
+.profil-image {
+    height: 520px;
+}
+
+.img-top {
+    width: 100%;
+    position: relative;
+}
+
+.nama {
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+.keterangan {
+    font-size: 23pt;
+}
+
+.profil-text ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 45px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.profil-text ul li {
+    margin-top: 10px;
+}
+
+/* main section */
+
+.main {
+    margin-top: 300px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+.portfolio {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+.portfolio-title {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.portfolio-content {
+    font-size: 16pt;
+    text-align: justify;
+}
+
+.portfolio-link {
+    font-size: 16pt;
+    text-align: end;
+}
+
+.portfolio-link a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* footer */
+.footer {
+    padding: 20px;
+    background-color: #002a62;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
